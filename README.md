@@ -1,4 +1,5 @@
 # poppler-go
+[![Go Reference](https://pkg.go.dev/badge/github.com/wassup05/poppler-go/poppler-go.svg)](https://pkg.go.dev/github.com/wassup05/poppler-go)
 
 An easy to use and intuitive PDF library using Go and Poppler
 
