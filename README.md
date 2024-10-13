@@ -37,18 +37,20 @@ Although there are some edges here and there, I plan on making them as smooth as
 
 For Debian/Ubuntu
 ```bash
-sudo apt install poppler libcairo2-dev
+sudo apt install libpoppler-dev libcairo2-dev
 ```
 
 For Fedora
 ```bash
-sudo dnf install poppler cairo-devel
+sudo dnf install poppler-glib-devel cairo-devel
 ```
 
 For Arch
 ```bash
 sudo pacman -S poppler poppler-data poppler-glib cairo
 ```
+
+Official source: [poppler](https://poppler.freedesktop.org/), [cairo](https://www.cairographics.org/)
 
 ## Examples of common tasks
 
@@ -204,9 +206,9 @@ func main(){
 # Contributing and bug reports.
 All contributions are very much welcome, For Bug Reports open an Issue with enough information so that they are debuggable. 
 
-There are many functions which are quite easy to implement which I didn't do only out of sheer lack of time, documentation for which can be found [here](ihttps://poppler.freedesktop.org/api/glib/) please go through them and send the contributions via a pull request.
+There are many functions which are quite easy to implement, documentation for which can be found [here](ihttps://poppler.freedesktop.org/api/glib/) please go through them and send the contributions via a pull request.
 
-For functions which are very common while handling PDF's I have made a separate file [extra.go](./poppler/extras.go) which can contain functions that are not necessarily provided by poppler but a combination of many functions that will make our lives a lot easier. You can contribute to these as well.
+For functions which are very common while handling PDF's I have made a separate file [extras.go](./poppler/extras.go) which can contain functions that are not necessarily provided by poppler but a combination of many functions that will make our lives a lot easier. You can contribute to these as well.
 
 # License
 
