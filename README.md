@@ -203,12 +203,8 @@ func main(){
 * [go-pdfium](https://github.com/klippa-app/go-pdfium) - PDF's for testing
 * [go-poppler](https://github.com/cheggaaa/go-poppler) - For inspiartion.
 
-# Contributing and bug reports.
-All contributions are very much welcome, For Bug Reports open an Issue with enough information so that they are debuggable. 
-
-There are many functions which are quite easy to implement, documentation for which can be found [here](ihttps://poppler.freedesktop.org/api/glib/) please go through them and send the contributions via a pull request.
-
-For functions which are very common while handling PDF's I have made a separate file [extras.go](./poppler/extras.go) which can contain functions that are not necessarily provided by poppler but a combination of many functions that will make our lives a lot easier. You can contribute to these as well.
+# Contributing
+check this [out](./CONTRIBUTING.md)
 
 # License
 
